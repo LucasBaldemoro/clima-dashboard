@@ -8,7 +8,6 @@ function Entrada() {
                     <div className="InfoContenedor">
                         <div className="infomas">
                             <div className="InfoContenedorDetalle">
-                                <h3>MetroData</h3>
                             </div>
                         </div>
                     </div>

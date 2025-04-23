@@ -7,7 +7,7 @@ function Div2({ fecha, carateristicas }) {
                 <div className="DetalleTiempo">
 
                     <div className="TiempoElemento">
-                        <img src="src/assets/iconosClima/humedad.svg"></img>
+                        <img src="src/assets/iconosClima/HumedadLluvia.svg"></img>
                         <p>
                             {fecha.hour24.humidity} {carateristicas.humidity}
                         </p>
@@ -19,7 +19,7 @@ function Div2({ fecha, carateristicas }) {
 
                     <div className="TiempoElemento">
 
-                        <img src="src/assets/iconosClima/Temperatura.svg"></img>
+                        <img src="src/assets/iconosClima/RojoTermometro.svg"></img>
                         <p>
 
                             {fecha.hour24.temperature} {carateristicas.temperature}
@@ -46,7 +46,7 @@ function Div2({ fecha, carateristicas }) {
                 <div className="DetalleTiempo">
 
                     <div className="TiempoElemento">
-                        <img src="src/assets/iconosClima/viento.svg"></img>
+                        <img src="src/assets/iconosClima/vientoo.svg"></img>
                         <p>
                             {fecha.hour24.wind_direction}
                         </p>

@@ -218,7 +218,8 @@ input {
       }
 
       p {
-        font-size: 2rem;
+        font-size: 2rem;     font-family: "Montserrat", serif; font-weight: bolder;
+
       }
     }
   }
@@ -249,7 +250,9 @@ input {
       }
 
       p {
-        font-size: 2rem;
+        font-size: 2rem;        font-family: "Montserrat", serif;  font-weight: bolder;
+
+
       }
     }
   }
