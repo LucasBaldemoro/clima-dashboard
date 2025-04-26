@@ -1,19 +1,19 @@
-function Contenedor3({fecha}) {
-    return(
-        <div className="div3">
-        <div className="div3DetallesDe">
-          <p> DIA</p>
-          <p>Pronostico</p>
+function Contenedor3({ fecha }) {
+  return (
+    <div className="div3">
+      <div className="div3DetallesDe">
+        <p> DIA</p>
+        <p>Pronostico</p>
 
-        </div>
-        <div className="div3DetallesDe">
+      </div>
+      <div className="div3DetallesIZ">
 
         <span>{fecha.hour24.date}</span>
 
-          <span>{fecha.hour24.text}</span>
-        </div>
+        <span>{fecha.hour24.text}</span>
       </div>
-    )
+    </div>
+  )
 }
 
 

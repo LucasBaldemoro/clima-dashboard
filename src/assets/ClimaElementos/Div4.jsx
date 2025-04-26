@@ -1,6 +1,7 @@
 import WeatherChart from "./WeatherChart";
+import Contenedor3 from "./Div3.jsx";
 
-function Contenedor4({ diasSemana }) {
+function Contenedor4({ diasSemana, horaDia }) {
 
   const weatherData = [
     { day: "Lun", temp: 22 },
@@ -17,7 +18,7 @@ function Contenedor4({ diasSemana }) {
 
   return (
     <div className="div4">
-      <WeatherChart data={weatherData} />
+      <Contenedor3 fecha={horaDia} />
 
       <div className="contenedor-dias">
         <div className="tarjeta-dia">
@@ -63,7 +64,7 @@ function Contenedor4({ diasSemana }) {
           <h3>VIERNES</h3>
           <img src={`https://v5i.tutiempo.net/wi/01/${50}/${diasSemana.day5.icon}.png`} alt="Icono del día" />
 
-        
+
           <p> MAX:{diasSemana.day5.temperature_max}   /   MIN:{diasSemana.day5.temperature_min}
 
 

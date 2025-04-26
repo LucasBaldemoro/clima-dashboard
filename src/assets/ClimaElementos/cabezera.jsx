@@ -1,4 +1,10 @@
+import { useState } from "react"
+
 function Entrada() {
+   const [textocontenido, setextocontenido] = useState("")
+
+
+
 
 
     return (
@@ -19,8 +25,8 @@ function Entrada() {
 
                 <h2>INGRESE TU LOCALIDAD</h2>
 
-                <input type="text" placeholder="ingrese texto"></input>
-
+                <input type="text" placeholder="ingrese texto"onChange ={e => setextocontenido(e.target.value)}  value={textocontenido}></input>
+               <p>{textocontenido}</p>
             </div>
             <div className="izquierdaContenedor">
                 <div className="Cabezera">
