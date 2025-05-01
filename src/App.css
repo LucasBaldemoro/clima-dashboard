@@ -158,7 +158,11 @@ input::placeholder {
       font-size: 2rem;
       margin: 0rem;
       font-family: "Montserrat", serif;
-      color: #8b4513;
+      color: green;
+
+      .calorTitulo{
+        color: #87ceeb;
+      }
     }
 
     p {

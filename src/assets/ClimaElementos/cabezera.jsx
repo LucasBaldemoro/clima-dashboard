@@ -1,14 +1,13 @@
 import { useState } from "react"
 
-function Entrada() {
-   const [textocontenido, setextocontenido] = useState("")
-
-
+function Entrada({ serch }) {
 
 
 
     return (
-        <div className="div1">
+
+
+        < div className="div1" >
             <div className="izquierdaContenedor">
                 <div className="Cabezera">
                     <div className="InfoContenedor">
@@ -23,10 +22,8 @@ function Entrada() {
 
 
 
-                <h2>INGRESE TU LOCALIDAD</h2>
+                <h2>MI PANEL <span className="calorTitulo">DEL TIEMPO</span></h2>
 
-                <input type="text" placeholder="ingrese texto"onChange ={e => setextocontenido(e.target.value)}  value={textocontenido}></input>
-               <p>{textocontenido}</p>
             </div>
             <div className="izquierdaContenedor">
                 <div className="Cabezera">
@@ -44,16 +41,38 @@ function Entrada() {
                     <p>
 
 
-                        
-                            <span>Marzo,Sabado</span>
+
+                        <span>Marzo,Sabado</span>
 
 
                     </p>
 
                 </div>
             </div>
-        </div>
+        </div >
+
+
+
+
+
     )
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
 
