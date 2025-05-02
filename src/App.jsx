@@ -6,7 +6,6 @@ import "./App.css";
 
 function App() {
   const [personaje, setPersonaje] = useState([]);
-  const [busqueda, setBusqueda] = useState(42833)
 
 
 
@@ -35,7 +34,7 @@ function App() {
 
 
 
-  const { locality = busqueda, information, hour_hour, copyright, language, use, web, ...rest } = personaje
+  const {locality , information, hour_hour, copyright, language, use, web, ...rest } = personaje
 
 
 

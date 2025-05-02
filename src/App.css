@@ -97,12 +97,12 @@ input::placeholder {
         font-family: "Montserrat", serif;
 
         span {
-          color: gray;
+          color: #b7b2a6;
           font-size: 1.2rem;
         }
 
         h3 {
-          color: #4a4a4a;
+          color: #101205;
           margin: 0rem;
           font-size: 1.5rem;
         }
@@ -136,7 +136,7 @@ input::placeholder {
         font-size: 1.7rem;
         font-weight: bolder;
         width: 250px;
-        color: #4a4a4a;
+        color: #b7b2a6;
         span {
           font-size: 1.5rem;
           font-weight: 500;

@@ -1,6 +1,7 @@
 import { useState } from "react"
 
 function Entrada({ serch }) {
+    const [fecha, setfecha] = useState(new Date());
 
 
 
@@ -30,7 +31,7 @@ function Entrada({ serch }) {
                     <div className="InfoContenedor">
                         <div className="infomas">
                             <div className="InfoContenedorDetalle">
-                                <h3>¡ Hellow Lucas !</h3>
+                                <h3>¡ Hellow Usario!</h3>
                                 <span>Bienvenido de nuevo</span>
                             </div>
                         </div>
@@ -42,7 +43,7 @@ function Entrada({ serch }) {
 
 
 
-                        <span>Marzo,Sabado</span>
+                        <span>{fecha.toDateString()}</span>
 
 
                     </p>
