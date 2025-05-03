@@ -5,6 +5,9 @@ Se desarrolló una aplicación web tipo dashboard de clima utilizando la bibliot
     ⚠️ Debido a las limitaciones de esta API, la consulta está restringida exclusivamente a Buenos Aires, ya que no permite búsquedas dinámicas por nombre de ciudad.
     Para habilitar una búsqueda personalizada por ciudad, sería necesario integrar una API adicional que permita convertir nombres de ciudades en coordenadas geográficas (por ejemplo, OpenWeatherMap o WeatherAPI).
 
+
+
+<hr>
 🧠 Tecnologías utilizadas
 
 React con Vite como entorno de desarrollo
