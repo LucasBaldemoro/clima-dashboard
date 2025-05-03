@@ -42,7 +42,6 @@ function Entrada({ serch }) {
                     <p>
 
 
-
                         <span>{fecha.toDateString()}</span>
 
 
