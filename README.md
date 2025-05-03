@@ -20,6 +20,11 @@ Axios para llamadas HTTP
 
 API de Tutiempo.net para datos climáticos
 
+
+
+<hr>
+
+
 ⚙️ Funcionalidades Principales
 
 Buscar clima por ciudad.
@@ -27,6 +32,12 @@ Buscar clima por ciudad.
 Mostrar datos actuales: temperatura, humedad, viento, sensación térmica, etc.
 
 Ver pronóstico por días.
+
+
+
+
+<hr>
+
 
 ![Vista del dashboard de clima](./public/capturaDelProyecto.png)
 
